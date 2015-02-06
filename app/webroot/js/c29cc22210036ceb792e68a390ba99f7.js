@@ -1,0 +1,2 @@
+$(document).ready(function () {$("#submit-2038506063").bind("click", function (event) {$.ajax({beforeSend:function (XMLHttpRequest) {$("#sending").fadeIn();}, data:$("#submit-2038506063").closest("form").serialize(), success:function (data, textStatus) {$("#loggedin").fadeOut();}, type:"post", url:"\/cribservice\/admin\/users"});
+return false;});});

@@ -1,0 +1,1 @@
+<p style="background-color:rgb(176, 219, 164); border-radius:3px; padding: 5px; color:white"> Your request has been sent, we'll get back shortly. Thanks.</p>

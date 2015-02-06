@@ -1,0 +1,2 @@
+$(document).ready(function () {$("#submit-1644332724").bind("click", function (event) {$.ajax({beforeSend:function (XMLHttpRequest) {$("#sending").fadeIn();}, data:$("#submit-1644332724").closest("form").serialize(), type:"post", url:"\/cribservice\/"});
+return false;});});

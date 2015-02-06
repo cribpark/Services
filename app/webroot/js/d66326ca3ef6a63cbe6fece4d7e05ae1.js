@@ -1,0 +1,2 @@
+$("#submit-1877574907").bind("click", function (event) {$.ajax({beforeSend:function (XMLHttpRequest) {$("#sending").fadeIn();}, data:$("#submit-1877574907").closest("form").serialize(), success:function (data, textStatus) {$("#sending").fadeOut();}, type:"post", url:"\/cribservice\/admin\/users"});
+return false;});
